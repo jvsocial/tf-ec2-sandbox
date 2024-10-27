@@ -20,3 +20,19 @@ variable "aws_region" {
   type        = string
   default     = "us-east-1"
 }
+
+
+
+variable "instance_name" {
+  description = "Name of EC2 instance"
+  type        = string
+  default     = "sandbox-server"
+
+}
+
+variable "security_group_name" {
+  description = "Security Group Name"
+  type        = string
+  default     = "sandbox_sg"
+
+}

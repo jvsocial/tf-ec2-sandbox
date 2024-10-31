@@ -26,14 +26,14 @@ variable "aws_region" {
 variable "instance_name" {
   description = "Name of EC2 instance"
   type        = string
-  default     = "sandbox-server"
+  default     = "null"
 
 }
 
 variable "security_group_name" {
   description = "Security Group Name"
   type        = string
-  default     = "sandbox_sg"
+  default     = "null"
 
 }
 

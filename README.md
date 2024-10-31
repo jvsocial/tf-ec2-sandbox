@@ -39,6 +39,8 @@ aws_access_key = "XXX"      # Replace with your AWS access key
 aws_secret_key = "XXX"      # Replace with your AWS secret key
 aws_token      = "XXX"      # Optional: Use if your AWS session requires a token
 aws_region     = "us-east-1"  # Replace with your desired AWS region
+instance_name   = "tool-server" # Replace with your desired name, same is set as hostname.
+security_group_name =   "tool_sg" # Replace with your desired security group name
 ```
 
 > ⚠️ **Note:**  
